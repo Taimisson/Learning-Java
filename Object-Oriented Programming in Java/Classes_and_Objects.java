@@ -12,10 +12,17 @@
 
 // <data_type>   <identifier> =   <value>;
 
-class Hello {
+class Math{
     public static void main(String[] args){
+
         int number1 = 5;
         int number2 = 5;
         System.out.println(number1 + number2);
+
+        double num1 = 0.3;
+        double num2 = 0.1;
+        System.out.println(num1 - num2);
+
     }
 }
+
