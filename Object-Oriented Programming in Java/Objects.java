@@ -25,6 +25,20 @@
 //     }
 // }
 
+class Detective{
+    void speak(){
+        System.out.println("Hello");
+    }
+}
+
+class MethodCall{
+    public static void main(String[] args){
+        Detective duke = new Detective();
+        Detective ann = new Detective();
+        duke.speak();
+        ann.speak();
+    }
+}
 
 class MethodCalls{
     void initial(){
