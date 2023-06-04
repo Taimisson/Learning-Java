@@ -58,16 +58,16 @@
 //     }
 // }
 
-class Detective {
-    public void sayYourProfession() {
-        System.out.println("Detective");
-    }
-}
+// class Detective {
+//     public void sayYourProfession() {
+//         System.out.println("Detective");
+//     }
+// }
 
-class Story {
-    public static void main(String[] args) {
-        Detective duke = new Detective();
-        duke.sayYourProfession();
-    }
-}
+// class Story {
+//     public static void main(String[] args) {
+//         Detective duke = new Detective();
+//         duke.sayYourProfession();
+//     }
+// }
 
