@@ -41,3 +41,7 @@ String nome;
 
 # Expressões
 
+- Lógicos
+    * && e
+    * || ou 
+    * ! negação 
