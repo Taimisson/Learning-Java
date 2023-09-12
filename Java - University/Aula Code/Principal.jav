@@ -5,6 +5,9 @@ public class Principal{
         Caneta c = new Caneta("Azul");
         
         double valorCaneta = c.getPreco();
+
+
+        System.out.println(c) // Chama o toString < Redundante
         
         c.setCor("Verdinho");
         
