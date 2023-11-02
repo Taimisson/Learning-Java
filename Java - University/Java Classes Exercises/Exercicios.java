@@ -26,10 +26,11 @@ public class Exercicios {
 	public int[] exercicio5(boolean[] array) {
 		int[] retorno = new int[array.length];
 		for(int i = 0; i < array.length; i++) {
-			if(array[i])
+			retorno[i] = array[i] ? 1 : 0;
+			/*if(array[i])
 				retorno[i] = 1;
 			else
-				retorno[i] = 0;
+				retorno[i] = 0;*/
 		}
 		return retorno;
 	}
